@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export function Cards(props) {
 	return (
-		<div className="card" className="col">
+		<div className="card col">
 			<img
 				src={props.image}
 				className="card-img-top"
